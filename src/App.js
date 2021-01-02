@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
 
-function App() {
-  return <Dashboard />;
+class App extends Component {
+  state = {};
+  render() {
+    return (
+      <div className="App">
+        <Todos todos={this.state.todos} />
+      </div>
+    );
+  }
 }
 
 export default App;
