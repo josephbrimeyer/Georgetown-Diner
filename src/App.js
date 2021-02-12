@@ -5,9 +5,7 @@ class App extends Component {
   state = {};
   render() {
     return (
-      <div className="App">
-        <Todos todos={this.state.todos} />
-      </div>
+      <div className="App">{/* <Todos todos={this.state.todos} /> */}</div>
     );
   }
 }
